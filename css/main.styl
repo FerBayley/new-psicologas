@@ -1,10 +1,10 @@
 @import url(http://fonts.googleapis.com/css?family=Lato);
-/*                     .__      ___.   .__                 
+/*                     .__      ___.   .__
 ___  _______ _______|__|____ \_ |__ |  |   ____   ______
 \  \/ /\__  \\_  __ \  \__  \ | __ \|  | _/ __ \ /  ___/
- \   /  / __ \|  | \/  |/ __ \| \_\ \  |_\  ___/ \___ \ 
+ \   /  / __ \|  | \/  |/ __ \| \_\ \  |_\  ___/ \___ \
   \_/  (____  /__|  |__(____  /___  /____/\___  >____  >
-            \/              \/    \/          \/     \/ 
+            \/              \/    \/          \/     \/
 */
 
 /* *** BARRA BAJO DE LA VIDRIERA *** */
@@ -42,12 +42,12 @@ menu = #B765FD
 textomenu = #49056B
 /* *** TEXTO DEL MENU *** */
 
-/*          __          .__                
+/*          __          .__
   _______/  |_ ___.__.|  |  __ __  ______
  /  ___/\   __<   |  ||  | |  |  \/  ___/
- \___ \  |  |  \___  ||  |_|  |  /\___ \ 
+ \___ \  |  |  \___  ||  |_|  |  /\___ \
 /____  > |__|  / ____||____/____//____  >
-     \/        \/                     \/ 
+     \/        \/                     \/
 */
 
 *
@@ -62,6 +62,17 @@ body
 	text-align center
 	width 100%
 
+footer
+	background #4B0B67
+	height auto
+	margin 2em 0 1em 0
+	width 100%
+	h6
+		color blanco
+		font-size .8em
+		font-weight 100
+		padding 1.5em 0 1.5em 0
+
 header
 	background header
 	height 104
@@ -73,39 +84,164 @@ header
 nav
 	background #b765fd
 	height auto
-	padding .5em 0 .5em 0
+	padding .7em 0 .7em 0
 	width 100%
 	ul li
 		display inline-block
 		font-size 1em
 		padding 0 .4em 0 .3em
-		a 
+		a
+			-webkit-transition all 2s ease
+			-moz-transition all 2s ease
+			-ms-transition all 2s ease
+			-o-transition all 2s ease
+			transition all 2s ease
 			color header
 			text-decoration none
+		a:hover
+			color blanco
+			-webkit-transition all 2s ease
+			-moz-transition all 2s ease
+			-ms-transition all 2s ease
+			-o-transition all 2s ease
+			transition all 2s ease
+
+#btnRegistro
+	background btnregistro
+	padding 1em
+	-o-border-radius 5px
+	-webkit-border-radius 5px
+	-ms-border-radius 5px
+	-moz-border-radius 5px
+	border-radius 5px
+
+.barraBuscador
+	background cajaperfiles
+	height auto
+	padding 2em 0 2em 0
+	width 100%
+	.redes
+		float right
+		margin 0 2em 0 0
+		ul li
+			padding 0 .5em 0 .5em
+
+.buscador, .redes
+	display inline-block
+	vertical-align middle
+
+.buscador, .buscadorBtn
+	display inline-block
+	font-style italic
+	float left
+	margin-left 1.5em
+	padding 1.5em
+	-webkit-border-radius 5px
+	-moz-border-radius 5px
+	border-radius 5px
+	width 25%
+
+.buscador
+	color #D4A7F5
+	background #9C3AC5
+
+.buscadorBtn
+	color #D4A7F5
+	background #4B0C65
+	width 18%
+
+.cab1,.cab2,.cab3
+	display inline-block
+	margin-bottom 1.5em
+	margin-top 2em
+	vertical-align middle
+	h3
+		color #656066
+		font-size .8em
+		display inline-block
+		margin-top 4em
+		margin-left 1em
+		margin-right 3em
+		text-align left
+		vertical-align top
+	ul li
+		display inline-block
+		list-style none
 
 .colPreHeader1, .colPreHeader2
 	font-size .9em
 	display inline-block
-	padding .5em 0 .5em 0 
+	padding .5em 0 .5em 0
 	vertical-align top
 
 .colPreHeader1
+	font-style italic
 	float left
+	margin-left 1.5em
 
-.colPreHeader2 
+.colPreHeader2
 	float right
+	margin-right 1em
+
+.columnas
+	height auto
+	display inline-block
+	margin .5em 2.5em .5em 2.5em
+	vertical-align top
+	width 22%
+	h2
+		color header
+		font-size 1.1em
+		font-weight 100
+		line-height 1.4em
+		margin-bottom .3em
+		text-align left
+		width 100%
+	h6
+		line-height 18px
+		margin-bottom .8em
+		text-align left
+		width 100%
+	p
+		line-height 23px
+		text-align left
+		margin .5em 0 1em 0
+	img
+		height auto
+		margin .5em 0 .5em 0
+		width 100%
 
 .contenedor
 	height auto
 	width 100%
 
-.clear 
+.clear
 	clear both
+
+.contenidoPrincipal
+	height auto
+	margin 0 0 2em 0
+	width 100%
 
 .logo, .registro
 	color blanco
 	display inline-block
 	vertical-align middle
+
+.logo
+	margin-left 1em
+
+.perfiles
+	background #F0EBF1
+	border-bottom solid 7px bordecaja
+	height auto
+	margin 0 0 2em 0
+	width 100%
+	a
+		color header
+		text-decoration none
+	a:hover
+		color preheader
 
 .preHeader
 	color blanco
@@ -113,11 +249,30 @@ nav
 	height auto
 	width 100%
 
+.redesFooter
+	height auto
+	width 100%
+	ul li 
+		display inline-block
+		padding 1em .5em .5em .5em
+
+.redes ul li
+	display inline-block
+	margin-top .5em
+
 .registro
-	margin 3em 0 0 0
+	float right
+	margin 2.5em 1em 0 0
+	a
+		color blanco
+		font-size .9em
+		font-weight 100
+		text-decoration none
 
 .vidriera
-	background grey
-	height 300px
+	height auto
 	width 100%
+	img
+		height auto
+		width 100%
 
