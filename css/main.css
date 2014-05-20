@@ -1,0 +1,17 @@
+@import url("http://fonts.googleapis.com/css?family=Lato");
+*{border:0;margin:0;padding:0}
+body{font-family:'Lato',sans-serif;font-size:16px;height:auto;text-align:center;width:100%}
+header{background:#49056b;height:104;padding:.5em 0 .5em 0;width:100%;}
+header .logo{float:left}
+nav{background:#b765fd;height:auto;padding:.5em 0 .5em 0;width:100%;}
+nav ul li{display:inline-block;font-size:1em;padding:0 .4em 0 .3em;}
+nav ul li a{color:#49056b;text-decoration:none}
+.colPreHeader1,.colPreHeader2{font-size:.9em;display:inline-block;padding:.5em 0 .5em 0;vertical-align:top}
+.colPreHeader1{float:left}
+.colPreHeader2{float:right}
+.contenedor{height:auto;width:100%}
+.clear{clear:both}
+.logo,.registro{color:#fff;display:inline-block;vertical-align:middle}
+.preHeader{color:#fff;background:#9a35cd;height:auto;width:100%}
+.registro{margin:3em 0 0 0}
+.vidriera{background:#808080;height:300px;width:100%}
